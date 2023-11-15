@@ -13,15 +13,37 @@
     <title>bookStore</title>
   </head>
   <body class="h-screen bg-[#376179] px-[63px] py-[55px]">
-    <div class="relative rounded-t-[30px] bg-[#ccc3c3]">
+    <div class="relative rounded-t-[30px] bg-[#ccc3c3] z-10">
       <input
         class="absolute right-5 top-5 w-40 rounded-2xl border border-orange-600 px-2 py-1"
         type="text"
         placeholder="Search ..."
       />
 
+      
+      <!-- circular Slider -->
+      <div class="slideshow absolute right-16 top-2 z-20">
+        <div class="carousel">
+          <div class="slide ">
+            <img src="./dist/images/Ellipse 5.png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./dist/images/Ellipse 6.png" alt="" />
+          </div>
+          <div class="slide ">
+            <img src="./dist/images/Ellipse 7.png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./dist/images/Ellipse 8.png" alt="" />
+          </div>
+          <div class="rounded-full border-[#376179] border-[55px] bg-[#DA8B2E] w-[276px] h-[276px]">
+        &nbsp
+      </div>
+        </div>
+      </div>
+
       <div
-        class="shadow-back mb-[-25px] h-screen w-4/6 rounded-tl-[30px] bg-[#d9d9d9]"
+        class="shadow-back z-30 mb-[-25px] h-screen w-4/6 rounded-tl-[30px] bg-[#d9d9d9]"
       >
         <!-- navbar -->
         <nav
@@ -154,5 +176,7 @@
         </div>
       </footer>
     </div>
+
+    <script src="./dist/js/circularSlider.js"></script>
   </body>
 </html>
