@@ -1,4 +1,4 @@
-const carousel = document.querySelector('.carousel');
+const carousel = document.querySelector(".carousel");
 let i = 0,
   intervalId;
 const intervalFn = () => {
@@ -8,4 +8,3 @@ const intervalFn = () => {
 };
 
 intervalFn();
-
