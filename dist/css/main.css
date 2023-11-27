@@ -663,12 +663,20 @@ video {
   right: 4rem;
 }
 
+.right-2 {
+  right: 0.5rem;
+}
+
 .start-1 {
   inset-inline-start: 0.25rem;
 }
 
 .top-0 {
   top: 0px;
+}
+
+.top-1 {
+  top: 0.25rem;
 }
 
 .top-1\/2 {
@@ -681,6 +689,10 @@ video {
 
 .top-\[-45px\] {
   top: -45px;
+}
+
+.top-\[-70px\] {
+  top: -70px;
 }
 
 .isolate {
@@ -735,6 +747,11 @@ video {
   margin: 1.25rem;
 }
 
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -783,16 +800,40 @@ video {
   margin-right: auto;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-60 {
+  margin-top: 15rem;
 }
 
 .mt-auto {
   margin-top: auto;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.mb-60 {
+  margin-bottom: 15rem;
+}
+
+.-mt-5 {
+  margin-top: -1.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-64 {
+  margin-top: 16rem;
 }
 
 .box-border {
@@ -910,6 +951,14 @@ video {
   height: 1rem;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
+.h-48 {
+  height: 12rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -936,6 +985,14 @@ video {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .w-5\/6 {
@@ -1500,8 +1557,12 @@ video {
   justify-items: stretch;
 }
 
-.gap-9 {
-  gap: 2.25rem;
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-x-3 {
@@ -1514,17 +1575,17 @@ video {
        column-gap: 1.25rem;
 }
 
+.gap-x-9 {
+  -moz-column-gap: 2.25rem;
+       column-gap: 2.25rem;
+}
+
 .gap-y-4 {
   row-gap: 1rem;
 }
 
 .gap-y-5 {
   row-gap: 1.25rem;
-}
-
-.gap-x-9 {
-  -moz-column-gap: 2.25rem;
-       column-gap: 2.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1884,6 +1945,10 @@ video {
   border-bottom-left-radius: 0.25rem;
 }
 
+.rounded-bl-\[132px\] {
+  border-bottom-left-radius: 132px;
+}
+
 .rounded-bl-\[145px\] {
   border-bottom-left-radius: 145px;
 }
@@ -1914,6 +1979,10 @@ video {
 
 .rounded-tr {
   border-top-right-radius: 0.25rem;
+}
+
+.rounded-tr-\[60px\] {
+  border-top-right-radius: 60px;
 }
 
 .rounded-tr-\[70px\] {
@@ -2189,6 +2258,10 @@ video {
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-12 {
