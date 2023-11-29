@@ -80,3 +80,23 @@
 .controls img {
   width: 5rem;
 }
+
+/* book slider */
+.slider-container-main {
+  @apply mx-auto flex w-[1000px] flex-col border-b-4 border-[#376179] pb-10;
+}
+.slider-container-main h1 {
+  @apply text-right text-3xl font-black;
+}
+
+.swiper-slide {
+  @apply mx-5 w-48 rounded-xl bg-slate-200 px-6 py-5 !important;
+}
+
+.slide-desc {
+  @apply flex flex-col items-center rounded-b-xl bg-[#da8b2e]/70 pb-3 pt-2;
+}
+
+.swiper-slide img {
+  @apply w-full rounded-t-xl;
+}
