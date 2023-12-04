@@ -102,7 +102,7 @@
 }
 
 .swiper-slide img {
-  @apply w-full rounded-t-xl;
+  @apply w-full rounded-t-xl h-[164px];
 }
 
 .slider-container-main h1{
